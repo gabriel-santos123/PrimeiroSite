@@ -1,0 +1,107 @@
+/* Reset e variáveis globais */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --fonte-principal: "Lustria";
+    --link: #0a4804;
+  }
+  
+  /* Estilos gerais do body */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/arau1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  /* Estilos do cabeçalho */
+  .site-header {
+    background-color: #333;
+    color: #000000; /* Ajuste a cor do texto conforme necessário */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px; /* Ajuste conforme necessário */
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .main-nav ul li {
+    margin-right: 20px;
+  }
+  
+  .main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .main-nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Estilos do cabeçalho específico */
+  .cabecalho {
+    background-image: url("img/4.png");
+  }
+  
+  .logo__principal {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  
+  .cabecalho__botao {
+    margin: 5% auto 0;
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    width: 180px;
+    height: 30px;
+    color: #fff;
+    padding: 20px;
+    border: 5px solid #fff;
+  }
+  
+  /* Estilos da seção 1 */
+  .secao1__descricao {
+    width: 50%;
+  }
+  
+  .secao1__titulo {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 0.1em;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .secao1__imagem {
+    padding: 1em;
+    width: 30%;
+    height: auto;
+  }
+  
+  .secao1__texto {
+    margin-top: 35px;
+    color: var(--preto-titulo);
+    font-size: 30px;
+  }
+  
+  /* Estilos da seção 2 */
+  .secao2__img
+  
